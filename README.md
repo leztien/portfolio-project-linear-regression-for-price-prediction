@@ -8,5 +8,10 @@ Instead of picking some dataset from Kaggle and doing some random manipulatiuons
 ## Fetch the data
 
 
+## A.Geron's notebook on Chapter 2:
+https://colab.research.google.com/github/ageron/handson-ml3/blob/main/02_end_to_end_machine_learning_project.ipynb
+
+## link to my github repo of this project:
+https://github.com/leztien/portfolio-project-linear-regression-for-price-prediction/tree/main
 
 
