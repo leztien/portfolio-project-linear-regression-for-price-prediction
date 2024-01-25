@@ -7,6 +7,8 @@ Instead of picking some dataset from Kaggle and doing some random manipulatiuons
 
 ## Fetch the data
 
+## Hands-On ML github:
+https://github.com/leztien/handson-ml3-forked
 
 ## A.Geron's notebook on Chapter 2:
 https://colab.research.google.com/github/ageron/handson-ml3/blob/main/02_end_to_end_machine_learning_project.ipynb
@@ -18,6 +20,7 @@ https://github.com/leztien/portfolio-project-linear-regression-for-price-predict
 
 
 ```shell
+# getting started
 $ git init myrepo
 $ cd myrepo
 $ touch README.md requirements.txt
@@ -34,4 +37,9 @@ $ git remote add origin https://github.com/leztien/repo.git
 $ git branch -M main
 $ git pull origin main --rebase  #??
 $ git push --set-upstream origin main
+
+# routine commits
+$ git add README.md requirements.txt
+$ git commit -m "comment"
+$ git push
 ```
