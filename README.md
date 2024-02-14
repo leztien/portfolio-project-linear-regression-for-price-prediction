@@ -26,7 +26,7 @@ $ git add README.md requirements.txt
 $ git commit -m “my first commit”
 
 # create a new repo on GitHub; generate a token
-$ git remote add origin https://github.com/leztien/repo.git
+$ git remote add origin https://github.com/leztien/myrepo.git
 $ git branch -M main
 $ git pull origin main --rebase  #??
 $ git push --set-upstream origin main
@@ -35,6 +35,14 @@ $ git push --set-upstream origin main
 $ git add README.md requirements.txt
 $ git commit -m "comment"
 $ git push
+
+# deployment
+$ pip freeze > requirements.txt
+$ copy the contents of this folder into a new 'deployment' folder and cd into it
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install -r requirements.txt
+$ uvicorn main:app --reload
 ```
 
 
